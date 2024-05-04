@@ -1,0 +1,31 @@
+/* CSS Document */
+
+img {
+    width: 1400px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(144, 188, 239);
+}
+
+h1 {
+    font-family: monospace;
+    font-size: 50px;
+    color: black;
+    margin: 20px;
+}
+
+.waterdrop-smile {
+    width: 750px;
+    height: 500px;
+    background: url('billeder/animation-workshop-waterdrop-smile-01.png') 0 0 no-repeat;
+    animation: waterdrop 2.5s steps(18) infinite;
+}
+
+@keyframes waterdrop {
+    0% {background-position: 0px;}
+    100% {background-position: -13500px;}
+}
